@@ -93,8 +93,9 @@ RUN pip install \
         imagecorruptions==1.1.0 \
         joblib==0.14.1 \
         jupyter==1.0.0 \
+        llvmlite==0.31.0 \
         numpy==1.18.1 \
-        numba==0.47 \
+        numba==0.47.0 \
         objgraph==3.4.1 \
         open3d-python==0.7.0.0 \
         opencv-python==4.2.0.34 \
@@ -108,7 +109,7 @@ RUN pip install \
         shapely==1.7.0 \
         terminaltables==3.1.0 \
         tqdm==4.25.0 \
-        vtk
+        vtk==8.1.2
 RUN pip install \
         lyft-dataset-sdk==0.0.8 \
         nuscenes_devkit==1.0.8 \
