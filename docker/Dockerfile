@@ -158,7 +158,7 @@ RUN cd ./apex && \
 # ==================================================================
 # OpenLidarPerceptron
 # ------------------------------------------------------------------
-RUN git clone https://github.com/open-mmlab/OpenLidarPerceptron
+RUN git clone https://github.com/open-mmlab/OpenPCDet
 RUN cd ./OpenLidarPerceptron && \
     python setup.py develop && \
     cd ..
